@@ -8,6 +8,7 @@
 //     //process.exit();
 // })
 
+const { AsyncLocalStorage } = require('async_hooks');
 const readline = require('readline');
 
 let interfazCaptura = readline.createInterface({
@@ -44,7 +45,6 @@ function entrada() {
             }
         
             entrada();
-           
         });
     
 }

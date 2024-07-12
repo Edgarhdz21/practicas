@@ -1,5 +1,16 @@
 {
   "dependencies": {
     "readline": "^1.3.0"
-  }
+  },
+  "name": "todo",
+  "description":"",
+  "version": "1.0.0",
+  "main": "display.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "download": "git add . && git commit -a -m ´Save´ && git push origin main"
+  },
+  "author": "",
+  "license": "ISC"
 }
