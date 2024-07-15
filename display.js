@@ -31,7 +31,7 @@ function entrada() {
 
         interfazCaptura.question('ingrese un numero: ', function (respuesta) {
            
-           
+         
             if (contador == 0) {
                 console.log(`numero es:  ${respuesta}`);
                 contador ++
